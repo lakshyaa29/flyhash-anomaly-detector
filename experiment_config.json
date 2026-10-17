@@ -1,0 +1,30 @@
+{
+  "data_directory": "processed_data",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "perceptron": {
+    "learning_rate": 0.01,
+    "epochs": 100
+  },
+  "flyhash": {
+    "expansion_ratios": [
+      5,
+      10,
+      20
+    ],
+    "sparsity_fractions": [
+      0.02,
+      0.05,
+      0.1
+    ]
+  },
+  "held_out": {
+    "attack_type": "neptune",
+    "selection_reason": "First attack type listed in Hansika's supplied phase4.py; fixed before this evaluation",
+    "test_source": "Original KDDTest+ rows labelled normal or neptune",
+    "hyperparameters": "Fixed shared settings; no selection on held-out attack results"
+  }
+}

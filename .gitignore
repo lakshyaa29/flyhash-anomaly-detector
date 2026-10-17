@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+data/*.txt
+data/downloads/
+processed_data/
+results/**/*_predictions.npz
+report/working_notes.md
+report/history/
+tmp/
+dist/
+*.part
